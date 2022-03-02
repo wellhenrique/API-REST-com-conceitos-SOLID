@@ -7,3 +7,4 @@
 ### O projeto ainda está em desenvolvimento.
 
 ### Para acessar a documentação da API acesse http://localhost:3333/api-docs
+Caso você queira rodar o projeto digar docker-compose up -d
