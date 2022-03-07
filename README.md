@@ -7,8 +7,10 @@
 ### O projeto ainda está em desenvolvimento.
 
 ### Para acessar a documentação da API acesse http://localhost:3333/api-docs
-<<<<<<< HEAD
-git
+
 =======
-Caso você queira rodar o projeto digar docker-compose up -d
->>>>>>> d58e4b5d180ebaea1e6ef9880384df6db643c649
+
+Caso você queira rodar o projeto digite
+> yarn
+> yarn typeorm migration:run
+> docker-compose up
