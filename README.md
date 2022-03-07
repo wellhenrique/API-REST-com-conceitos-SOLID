@@ -11,6 +11,6 @@
 =======
 
 Caso você queira rodar o projeto digite
-> yarn
-> yarn typeorm migration:run
-> docker-compose up
+-> yarn
+-> yarn typeorm migration:run
+-> docker-compose up
