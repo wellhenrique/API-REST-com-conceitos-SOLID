@@ -1,3 +1,4 @@
+import { injectable } from "tsyringe";
 import { getRepository, Repository } from "typeorm";
 import { ICreateUserDTO } from "../../dtos/ICreateUsersDTO";
 import { User } from "../../entities/User";
@@ -12,14 +13,12 @@ class UsersRepository implements IUsersRepository {
 
   async create({
     name,
-    username,
     email,
     driver_license,
     password,
   }: ICreateUserDTO): Promise<void> {
     const user = this.repository.create({
       name,
-      username,
       email,
       driver_license,
       password,
