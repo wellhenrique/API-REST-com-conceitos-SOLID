@@ -1,4 +1,3 @@
-import { injectable } from "tsyringe";
 import { getRepository, Repository } from "typeorm";
 import { ICreateUserDTO } from "../../dtos/ICreateUsersDTO";
 import { User } from "../../entities/User";
@@ -28,6 +27,11 @@ class UsersRepository implements IUsersRepository {
 
   async findByEmail(email: string): Promise<User> {
     const user = this.repository.findOne({ email });
+    return user;
+  }
+
+  async findById(id: string): Promise<User> {
+    const user = this.repository.findOne(id);
     return user;
   }
 }
