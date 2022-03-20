@@ -1,4 +1,4 @@
-import { Category } from "../../entities/Category";
+import { Category } from "@modules/cars/entities/Category";
 import { ICategoriesRepository, ICategoryDTO } from "../ICategoriesRepository";
 
 class CategoriesRepositoryInMemory implements ICategoriesRepository {

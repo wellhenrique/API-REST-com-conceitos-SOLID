@@ -1,7 +1,7 @@
+import { CreateUserController } from "@modules/accounts/useCases/createUser/CreateUserController";
+import { UpdateAvatarUserController } from "@modules/accounts/useCases/updateAvatarUser/UpdateAvatarUserController";
 import { Router } from "express";
 import multer from "multer";
-import { CreateUserController } from "../modules/accounts/useCases/createUser/CreateUserController";
-import { UpdateAvatarUserController } from "../modules/accounts/useCases/updateAvatarUser/UpdateAvatarUserController";
 
 const usersRoutes = Router();
 
